@@ -1,0 +1,23 @@
+Codebase: Each microservice should have its own codebase, allowing for version control and independent deployment.
+
+Dependencies: Explicitly declare and isolate dependencies to ensure the application's reproducibility and avoid version conflicts.
+
+Configuration: Store configuration settings in the environment, making them easily changeable without modifying code. Avoid storing configuration in files or hardcoding them.
+
+Backing Services: Treat backing services, such as databases or message queues, as attached resources that can be swapped or replaced. Connect to them via well-defined APIs.
+
+Build, Release, Run: Separate the build, release, and run stages. Enable fast and reproducible deployments by keeping them distinct from the execution environment.
+
+Processes: Execute the application as one or more stateless processes, taking advantage of horizontal scalability. Store shared data in external data stores.
+
+Port Binding: Export services via a port binding mechanism (e.g., HTTP) and assign each service a unique port. This enables easy communication between microservices.
+
+Concurrency: Scale out through the process model, instead of relying on vertical scaling. Design applications to handle concurrency and parallelism gracefully.
+
+Disposability: Maximize robustness by enabling quick startup and graceful shutdown of microservices. Favor stateless processes and externalize stateful components.
+
+Dev/Prod Parity: Keep development, staging, and production environments as similar as possible. Reduce the risk of deployment-related issues and enable easier debugging.
+
+Logs: Treat logs as event streams, aggregating and centralizing them for better analysis and monitoring. Avoid storing logs within the application itself.
+
+Admin Processes: Provide administrative interfaces as regular microservices to enable operational tasks, instead of relying on direct server access or SSH.

@@ -1,0 +1,31 @@
+Saga Pattern: Manages long-running transactions by breaking them into a series of smaller, compensatable steps.
+
+API Composition: Aggregates data from multiple microservices into a single API endpoint to reduce client-side requests and improve performance.
+
+Gateway Aggregation: Combines multiple requests from clients into a single request that is then dispatched to multiple microservices.
+
+Database Sharding: Divides a database into smaller, more manageable shards to distribute the load and improve scalability.
+
+Event Sourcing: Stores all changes to an application's state as a sequence of events. This pattern enables rebuilding the application state at any point in time.
+
+CQRS (Command Query Responsibility Segregation): Separates read and write operations into distinct models to optimize performance and scalability.
+
+Strangler Pattern: Gradually migrates functionality from a monolithic application to microservices by gradually replacing parts of the monolith.
+
+Sidecar Pattern: Attaches a separate microservice, known as a sidecar, to a primary microservice to provide additional functionality (e.g., logging, authentication).
+
+Service Mesh: Implements a dedicated infrastructure layer for managing communication between microservices, providing features like service discovery, load balancing, and security.
+
+Leader Election: Enables high availability and fault tolerance by electing a leader from a group of microservices to handle specific tasks.
+
+Retry Pattern: Automatically retries failed requests to a microservice to handle transient errors or temporary unavailability.
+
+Cache-Aside: Stores frequently accessed data in a cache to reduce the load on backend services and improve response times.
+
+Branch Pattern: Allows for the development of experimental features or new versions of a microservice without impacting the main production version.
+
+Backends for Frontends (BFF): Develops dedicated backend services for different client applications or user interfaces to optimize data and functionality.
+
+Circuit Breaker: Monitors the availability of a microservice and, in case of failures, provides fallback responses or alternative behavior to prevent cascading failures.
+
+Bulkhead Pattern: Isolates resources (e.g., thread pools, databases) for each microservice to limit the impact of failures and ensure fault isolation.

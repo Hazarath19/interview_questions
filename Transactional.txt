@@ -1,0 +1,17 @@
+Here are the different propagation behaviors available for @Transactional:
+
+REQUIRED: This is the default propagation behavior. If there is an existing transaction when the annotated method is called, the method will run within that transaction. If there is no existing transaction, a new transaction will be created for the method.
+
+REQUIRES_NEW: This behavior always starts a new transaction, suspending the current transaction (if one exists). It ensures that the annotated method always runs in a new independent transaction.
+
+SUPPORTS: If there is an existing transaction, the annotated method will run within that transaction. If there is no transaction, the method will run without a transaction.
+
+NOT_SUPPORTED: The annotated method will always run without a transaction. If there is an existing transaction, it will be suspended for the duration of the method execution.
+
+MANDATORY: The method must be called within an existing transaction. If there is no transaction, an exception will be thrown.
+
+NEVER: The method must not be called within a transaction context. If there is an existing transaction, an exception will be thrown.
+
+NESTED: If a transaction already exists, the annotated method will run within the existing transaction. However, if no transaction exists, a new nested transaction will be started. The nested transaction is a part of the existing transaction, and if the nested transaction fails, only the nested part will be rolled back, not the entire transaction.
+
+It's essential to choose the appropriate propagation behavior based on your application's requirements to ensure data consistency and avoid potential issues like deadlocks or unexpected transaction rollbacks.
