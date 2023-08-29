@@ -1,0 +1,24 @@
+
+
+Aug-25 2013
+
+1)Memory changes between 1.8 and 1.7
+
+
+2)Maven scopes  -> Compile,Runtime,provided,Test
+
+3)Intermideate and Terminal
+
+4)HTTPS
+
+5)Okta Server 
+
+6)Spring Boot How to connect DB JDBC
+
+7) How to secure DB passwords in spring 
+
+8) How to Customize ArrayList Duplicares 
+
+9)How objects are GC what is there any algorithm
+
+
