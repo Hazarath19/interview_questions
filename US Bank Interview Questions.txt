@@ -21,4 +21,19 @@ Aug-25 2013
 
 9)How objects are GC what is there any algorithm
 
+*****************************************************************************************************************************************************************************************************************************
+Customer Interview
+
+1. How logs are maintained and designed for Splunk
+2. What are the Jenkins pipeline steps 
+3. How you develop CI/CD
+4.How you design your Microservices 
+5. What is the fastest algorthm to fetch the results 
+6. What is Balanced Tree How it will work 
+7. What are the code coverage tools used in your project
+8. What are the recent chalanges you faced in your project 
+9. What is the Latest library used in your project that enlightened you 
+10. What is scaling 
+11. Have you used Docker and K8s in your project 
+
 
