@@ -1,0 +1,33 @@
+1)What is Tapestry
+
+2)Tomcat server how it loads in Spring Boot
+
+3) What is the Bean LifeCycle 
+
+4)What is the class in collections which maintain ordered index without duplicates
+
+5) How LinkedList is Designed internally
+
+6)How Histrix is configured and fallback will occur
+
+7)How tomcat will start by SpringBoot what are the classes of it
+
+8)How to configure Splunk logs for A,B,C microservices
+
+9)what is the error code of 415 and 401 
+
+10)How Autherization Bearer token will send MS A to MS B
+
+11)What is the use of Where and Having. Which one gives More performance
+
+12)What are purpose of methods PutMapping and PatchMApping
+
+13) What is difference bn RDBMS and NO SQL
+
+14)Exception Heirarchy
+
+15)What are the changes in interface of Java 8 
+
+16)In interface default methods are implemented how its costructor is called
+
+17)How to maintain Multiple MS indexes in Splunk
